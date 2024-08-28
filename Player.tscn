@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwedthpg5sub0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pu34e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8iajf"]
+radius = 13.0
+height = 28.0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_pu34e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("CapsuleShape2D_8iajf")
