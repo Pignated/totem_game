@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # <img src="./icon.png" style="height:1em;" /> Github To Itch (Godot 4.0)
 This addon automatically generates a github workflow to publish your game to your itch.io project. Great for use in jams so you can have your playable code live within a couple minutes of pushing to github.
 
@@ -18,3 +19,7 @@ The workflow template file is found in `addons/github_to_itch/templates` You can
 
 ## Suggestions :+1:
 If you have any ideas or suggestions for the addon please create an issue or fork the project and make a PR!
+=======
+# totem_game
+Godot game I am working on
+>>>>>>> c01352cd349668b9f80d7dd963f0d6d87916ac0c
